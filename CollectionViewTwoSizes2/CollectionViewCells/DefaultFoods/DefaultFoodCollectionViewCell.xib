@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="DefaultFoodCollectionViewCell" customModule="CollectionViewTwoSizes2" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="259" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="259" height="110"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qGa-zb-HV9">
+                        <rect key="frame" x="0.0" y="0.0" width="259" height="110"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64c-Qn-0hC">
+                                <rect key="frame" x="110.33333333333333" y="44.666666666666664" width="38.666666666666671" height="20.999999999999993"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <constraints>
+                            <constraint firstItem="64c-Qn-0hC" firstAttribute="centerY" secondItem="qGa-zb-HV9" secondAttribute="centerY" id="Ael-Bo-oIh"/>
+                            <constraint firstItem="64c-Qn-0hC" firstAttribute="centerX" secondItem="qGa-zb-HV9" secondAttribute="centerX" id="dzf-RL-43y"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="qGa-zb-HV9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="96X-Vt-iDO"/>
+                <constraint firstAttribute="trailing" secondItem="qGa-zb-HV9" secondAttribute="trailing" id="S7x-Ul-uYH"/>
+                <constraint firstAttribute="bottom" secondItem="qGa-zb-HV9" secondAttribute="bottom" id="ZDV-aW-A1A"/>
+                <constraint firstItem="qGa-zb-HV9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="evm-xM-ub0"/>
+            </constraints>
+            <size key="customSize" width="259" height="110"/>
+            <point key="canvasLocation" x="297.69230769230768" y="41.943127962085306"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
